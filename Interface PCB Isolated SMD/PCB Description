@@ -1,0 +1,7 @@
+Electrcaly isolated interface.
+
+Battery + & - are protected by 1.5A fuses as well as a 50mA PTC fuse
+J1 & J2 are protected by a 50mA PTC fuses
+Battery side is electrically isolated from the PC side by 4N33 Opto-isolators (5000V isolation voltage)
+
+To prevent incrementing the Dumb charge count when connection to the battery the serial interface must be powered, but the script is not required to be running.
